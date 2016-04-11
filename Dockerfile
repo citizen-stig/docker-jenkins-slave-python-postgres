@@ -1,4 +1,5 @@
 FROM jenkins-python-slave
+MAINTAINER Nikolay Golub <nikolay.v.golub@gmail.com>
 
 # Install and prepare postgres
 RUN apt-get update && apt-get install -y postgresql libpq-de && \
