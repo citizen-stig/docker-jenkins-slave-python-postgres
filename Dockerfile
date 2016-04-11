@@ -1,4 +1,4 @@
-FROM jenkins-python-slave
+FROM citizenstig/jenkins-slave-python
 MAINTAINER Nikolay Golub <nikolay.v.golub@gmail.com>
 
 # Install and prepare postgres
